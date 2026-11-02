@@ -16,7 +16,7 @@ echo "=== 3. Nombre del Host ==="
 echo "asus-k46" > /etc/hostname
 
 echo "=== 4. Creando Usuario mors y Privilegios Sudo ==="
-pacman -S --noconfirm sudo git base-devel NetworkManager
+pacman -S --noconfirm sudo git base-devel networkmanager
 useradd -m -G wheel mors
 echo "mors:mors2822" | chpasswd
 echo "root:mors2822" | chpasswd
